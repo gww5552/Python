@@ -5,5 +5,5 @@ def isOdd(number):
        print("奇数".format(number))
 
 
-isOdd(25)
-isOdd(20)
+isOdd()
+isOdd()
