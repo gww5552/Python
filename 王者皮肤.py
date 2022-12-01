@@ -37,10 +37,6 @@ def visit_hero_url():
         skins = re.findall(pattern, html.content.decode("gbk"))[0]
         skins = re.sub("&|[0-9]{0,5}|\"", "", skins)
         for index, name in enumerate(skins.split("|")):
-            '''
-            index：皮肤的序号
-            name：皮肤名称
-            '''
             print(index, name)
             download_skin(hero_id["id"], index + 1, name)
 
