@@ -6,7 +6,8 @@ import time
 
 
 def camouflage_browser():
-    ur1 = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE/10.0.2410.0'
+    ur1 = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 ' \
+          'Safari/537.36 QIHU 360SE/10.0.2410.0 '
     ur_list = ur1
 
     headers = {
